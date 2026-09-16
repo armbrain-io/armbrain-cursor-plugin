@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "armbrain": {
+      "url": "https://api.armbrain.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0B1220"/>
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#5B8CFF" stroke-width="28"/>
+  <circle cx="256" cy="256" r="70" fill="#5B8CFF"/>
+  <text x="256" y="455" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="36" fill="#E8EEF9">Armbrain</text>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "armbrain",
+  "version": "1.0.0",
+  "description": "AI memory for fractional CMOs \u2014 client-partitioned minds, meeting prep, brand voice, and Business OS (EOS) tools via Armbrain MCP.",
+  "author": {
+    "name": "Armbrain",
+    "email": "hello@armbrain.io"
+  },
+  "homepage": "https://armbrain.io",
+  "repository": "https://github.com/armbrain-io/armbrain-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "armbrain",
+    "mcp",
+    "memory",
+    "cmo",
+    "meeting-prep",
+    "eos",
+    "grok-bot",
+    "cursor"
+  ],
+  "logo": "assets/logo.svg"
+}
