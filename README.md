@@ -17,13 +17,27 @@ Armbrain is durable, client-partitioned AI memory for fractional CMOs — meetin
 2. Search for **Armbrain** and install
 3. Authorize with your Armbrain account when prompted
 
-## Manual / custom connect (today)
+## Install in Cursor (works today)
 
-Until the marketplace listing is live, add the remote MCP URL:
+**Option A: one-click link.** Paste this into your browser, and Cursor will ask to install Armbrain:
 
-`https://api.armbrain.io/mcp`
+```text
+cursor://anysphere.cursor-deeplink/mcp/install?name=armbrain&config=eyJ1cmwiOiJodHRwczovL2FwaS5hcm1icmFpbi5pby9tY3AifQ%3D%3D
+```
 
-Then complete OAuth. Do not paste tokens into chat.
+**Option B: edit `mcp.json`.** Add this to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (one project):
+
+```json
+{
+  "mcpServers": {
+    "armbrain": {
+      "url": "https://api.armbrain.io/mcp"
+    }
+  }
+}
+```
+
+Then sign in with your Armbrain account when Cursor prompts you (OAuth). Never paste tokens into chat.
 
 ## Local test (Cursor IDE)
 
